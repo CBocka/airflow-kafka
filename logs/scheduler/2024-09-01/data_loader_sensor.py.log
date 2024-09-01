@@ -1,0 +1,130 @@
+[2024-09-01T10:49:29.793+0000] {processor.py:186} INFO - Started process (PID=481) to work on /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:49:29.795+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_loader_sensor.py for tasks to queue
+[2024-09-01T10:49:29.796+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:49:29.796+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:49:29.850+0000] {processor.py:925} INFO - DAG(s) 'kafka_consumer_dag_sensor' retrieved from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:49:30.116+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:49:30.115+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:kafka_consumer_dag_sensor
+[2024-09-01T10:49:30.127+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:49:30.126+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:kafka_consumer_dag_sensor
+[2024-09-01T10:49:30.138+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:49:30.137+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:kafka_consumer_dag_sensor
+[2024-09-01T10:49:30.139+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:49:30.139+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T10:49:30.152+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:49:30.152+0000] {dag.py:3234} INFO - Creating ORM DAG for kafka_consumer_dag_sensor
+[2024-09-01T10:49:30.153+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:49:30.153+0000] {dag.py:4138} INFO - Setting next_dagrun for kafka_consumer_dag_sensor to None, run_after=None
+[2024-09-01T10:49:30.177+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_loader_sensor.py took 0.392 seconds
+[2024-09-01T10:50:00.319+0000] {processor.py:186} INFO - Started process (PID=491) to work on /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:50:00.321+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_loader_sensor.py for tasks to queue
+[2024-09-01T10:50:00.322+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:50:00.322+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:50:00.356+0000] {processor.py:925} INFO - DAG(s) 'kafka_consumer_dag_sensor' retrieved from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:50:00.382+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:50:00.382+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T10:50:00.394+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:50:00.394+0000] {dag.py:4138} INFO - Setting next_dagrun for kafka_consumer_dag_sensor to None, run_after=None
+[2024-09-01T10:50:00.426+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_loader_sensor.py took 0.112 seconds
+[2024-09-01T10:50:30.640+0000] {processor.py:186} INFO - Started process (PID=508) to work on /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:50:30.641+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_loader_sensor.py for tasks to queue
+[2024-09-01T10:50:30.643+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:50:30.643+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:50:30.678+0000] {processor.py:925} INFO - DAG(s) 'kafka_consumer_dag_sensor' retrieved from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:50:30.705+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:50:30.705+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T10:50:30.719+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:50:30.719+0000] {dag.py:4138} INFO - Setting next_dagrun for kafka_consumer_dag_sensor to None, run_after=None
+[2024-09-01T10:50:30.746+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_loader_sensor.py took 0.112 seconds
+[2024-09-01T10:51:01.097+0000] {processor.py:186} INFO - Started process (PID=525) to work on /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:51:01.099+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_loader_sensor.py for tasks to queue
+[2024-09-01T10:51:01.101+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:51:01.100+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:51:01.142+0000] {processor.py:925} INFO - DAG(s) 'kafka_consumer_dag_sensor' retrieved from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:51:01.173+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:51:01.173+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T10:51:01.191+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:51:01.191+0000] {dag.py:4138} INFO - Setting next_dagrun for kafka_consumer_dag_sensor to None, run_after=None
+[2024-09-01T10:51:01.214+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_loader_sensor.py took 0.124 seconds
+[2024-09-01T10:51:31.615+0000] {processor.py:186} INFO - Started process (PID=535) to work on /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:51:31.616+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_loader_sensor.py for tasks to queue
+[2024-09-01T10:51:31.621+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:51:31.617+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:51:31.689+0000] {processor.py:925} INFO - DAG(s) 'kafka_consumer_dag_sensor' retrieved from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:51:31.730+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:51:31.729+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T10:51:31.748+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:51:31.747+0000] {dag.py:4138} INFO - Setting next_dagrun for kafka_consumer_dag_sensor to None, run_after=None
+[2024-09-01T10:51:31.773+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_loader_sensor.py took 0.165 seconds
+[2024-09-01T10:52:02.149+0000] {processor.py:186} INFO - Started process (PID=545) to work on /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:52:02.150+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_loader_sensor.py for tasks to queue
+[2024-09-01T10:52:02.152+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:52:02.152+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:52:02.196+0000] {processor.py:925} INFO - DAG(s) 'kafka_consumer_dag_sensor' retrieved from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:52:02.224+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:52:02.224+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T10:52:02.239+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:52:02.239+0000] {dag.py:4138} INFO - Setting next_dagrun for kafka_consumer_dag_sensor to None, run_after=None
+[2024-09-01T10:52:02.259+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_loader_sensor.py took 0.117 seconds
+[2024-09-01T10:52:32.558+0000] {processor.py:186} INFO - Started process (PID=555) to work on /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:52:32.559+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_loader_sensor.py for tasks to queue
+[2024-09-01T10:52:32.561+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:52:32.560+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:52:32.595+0000] {processor.py:925} INFO - DAG(s) 'kafka_consumer_dag_sensor' retrieved from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:52:32.620+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:52:32.620+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T10:52:32.632+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:52:32.632+0000] {dag.py:4138} INFO - Setting next_dagrun for kafka_consumer_dag_sensor to None, run_after=None
+[2024-09-01T10:52:32.662+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_loader_sensor.py took 0.109 seconds
+[2024-09-01T10:53:03.098+0000] {processor.py:186} INFO - Started process (PID=565) to work on /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:53:03.099+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_loader_sensor.py for tasks to queue
+[2024-09-01T10:53:03.100+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:53:03.100+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:53:03.146+0000] {processor.py:925} INFO - DAG(s) 'kafka_consumer_dag_sensor' retrieved from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:53:03.180+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:53:03.180+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T10:53:03.194+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:53:03.194+0000] {dag.py:4138} INFO - Setting next_dagrun for kafka_consumer_dag_sensor to None, run_after=None
+[2024-09-01T10:53:03.223+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_loader_sensor.py took 0.130 seconds
+[2024-09-01T10:53:33.675+0000] {processor.py:186} INFO - Started process (PID=575) to work on /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:53:33.676+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_loader_sensor.py for tasks to queue
+[2024-09-01T10:53:33.678+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:53:33.678+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:53:33.723+0000] {processor.py:925} INFO - DAG(s) 'kafka_consumer_dag_sensor' retrieved from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:53:33.750+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:53:33.750+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T10:53:33.777+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:53:33.777+0000] {dag.py:4138} INFO - Setting next_dagrun for kafka_consumer_dag_sensor to None, run_after=None
+[2024-09-01T10:53:33.806+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_loader_sensor.py took 0.138 seconds
+[2024-09-01T10:54:04.184+0000] {processor.py:186} INFO - Started process (PID=585) to work on /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:54:04.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_loader_sensor.py for tasks to queue
+[2024-09-01T10:54:04.187+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:54:04.187+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:54:04.220+0000] {processor.py:925} INFO - DAG(s) 'kafka_consumer_dag_sensor' retrieved from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:54:04.244+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:54:04.244+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T10:54:04.257+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:54:04.257+0000] {dag.py:4138} INFO - Setting next_dagrun for kafka_consumer_dag_sensor to None, run_after=None
+[2024-09-01T10:54:04.286+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_loader_sensor.py took 0.107 seconds
+[2024-09-01T10:54:34.806+0000] {processor.py:186} INFO - Started process (PID=595) to work on /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:54:34.807+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_loader_sensor.py for tasks to queue
+[2024-09-01T10:54:34.809+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:54:34.808+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:54:34.842+0000] {processor.py:925} INFO - DAG(s) 'kafka_consumer_dag_sensor' retrieved from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:54:34.868+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:54:34.868+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T10:54:34.884+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:54:34.883+0000] {dag.py:4138} INFO - Setting next_dagrun for kafka_consumer_dag_sensor to None, run_after=None
+[2024-09-01T10:54:34.915+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_loader_sensor.py took 0.114 seconds
+[2024-09-01T10:55:05.304+0000] {processor.py:186} INFO - Started process (PID=605) to work on /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:55:05.305+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_loader_sensor.py for tasks to queue
+[2024-09-01T10:55:05.306+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:55:05.306+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:55:05.343+0000] {processor.py:925} INFO - DAG(s) 'kafka_consumer_dag_sensor' retrieved from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:55:05.367+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:55:05.367+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T10:55:05.381+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:55:05.381+0000] {dag.py:4138} INFO - Setting next_dagrun for kafka_consumer_dag_sensor to None, run_after=None
+[2024-09-01T10:55:05.411+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_loader_sensor.py took 0.112 seconds
+[2024-09-01T10:55:35.847+0000] {processor.py:186} INFO - Started process (PID=615) to work on /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:55:35.848+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_loader_sensor.py for tasks to queue
+[2024-09-01T10:55:35.850+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:55:35.849+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:55:35.883+0000] {processor.py:925} INFO - DAG(s) 'kafka_consumer_dag_sensor' retrieved from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:55:35.909+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:55:35.909+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T10:55:35.922+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:55:35.922+0000] {dag.py:4138} INFO - Setting next_dagrun for kafka_consumer_dag_sensor to None, run_after=None
+[2024-09-01T10:55:35.951+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_loader_sensor.py took 0.108 seconds
+[2024-09-01T10:56:06.430+0000] {processor.py:186} INFO - Started process (PID=625) to work on /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:56:06.431+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_loader_sensor.py for tasks to queue
+[2024-09-01T10:56:06.432+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:56:06.432+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:56:06.464+0000] {processor.py:925} INFO - DAG(s) 'kafka_consumer_dag_sensor' retrieved from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:56:06.487+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:56:06.487+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T10:56:06.499+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:56:06.499+0000] {dag.py:4138} INFO - Setting next_dagrun for kafka_consumer_dag_sensor to None, run_after=None
+[2024-09-01T10:56:06.528+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_loader_sensor.py took 0.103 seconds
+[2024-09-01T10:56:36.937+0000] {processor.py:186} INFO - Started process (PID=635) to work on /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:56:36.938+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_loader_sensor.py for tasks to queue
+[2024-09-01T10:56:36.939+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:56:36.939+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:56:36.973+0000] {processor.py:925} INFO - DAG(s) 'kafka_consumer_dag_sensor' retrieved from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:56:36.997+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:56:36.997+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T10:56:37.010+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:56:37.009+0000] {dag.py:4138} INFO - Setting next_dagrun for kafka_consumer_dag_sensor to None, run_after=None
+[2024-09-01T10:56:37.038+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_loader_sensor.py took 0.106 seconds
+[2024-09-01T10:57:07.502+0000] {processor.py:186} INFO - Started process (PID=645) to work on /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:57:07.503+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_loader_sensor.py for tasks to queue
+[2024-09-01T10:57:07.505+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:57:07.504+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:57:07.536+0000] {processor.py:925} INFO - DAG(s) 'kafka_consumer_dag_sensor' retrieved from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:57:07.564+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:57:07.563+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T10:57:07.578+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:57:07.578+0000] {dag.py:4138} INFO - Setting next_dagrun for kafka_consumer_dag_sensor to None, run_after=None
+[2024-09-01T10:57:07.609+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_loader_sensor.py took 0.112 seconds
+[2024-09-01T10:57:38.048+0000] {processor.py:186} INFO - Started process (PID=655) to work on /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:57:38.049+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_loader_sensor.py for tasks to queue
+[2024-09-01T10:57:38.051+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:57:38.051+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:57:38.107+0000] {processor.py:925} INFO - DAG(s) 'kafka_consumer_dag_sensor' retrieved from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:57:38.141+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:57:38.141+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T10:57:38.159+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:57:38.159+0000] {dag.py:4138} INFO - Setting next_dagrun for kafka_consumer_dag_sensor to None, run_after=None
+[2024-09-01T10:57:38.185+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_loader_sensor.py took 0.143 seconds
+[2024-09-01T10:58:08.447+0000] {processor.py:186} INFO - Started process (PID=665) to work on /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:58:08.449+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_loader_sensor.py for tasks to queue
+[2024-09-01T10:58:08.450+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:58:08.450+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:58:08.492+0000] {processor.py:925} INFO - DAG(s) 'kafka_consumer_dag_sensor' retrieved from /opt/airflow/dags/data_loader_sensor.py
+[2024-09-01T10:58:08.525+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:58:08.524+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T10:58:08.540+0000] {logging_mixin.py:190} INFO - [2024-09-01T10:58:08.540+0000] {dag.py:4138} INFO - Setting next_dagrun for kafka_consumer_dag_sensor to None, run_after=None
+[2024-09-01T10:58:08.562+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_loader_sensor.py took 0.120 seconds

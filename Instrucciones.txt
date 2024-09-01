@@ -1,0 +1,39 @@
+En un principio no funcionaban ni los contenedores de airflow-webserver ni el scheduler. Mirando los logs (docker logs airflow-webserver) 
+el fallo estaba en que no se estaba inicializando la base de datos de airflow y por lo tanto no podían levantarse los servicios.
+
+La solución fue usar los siguientes comandos con el contenedor activado:
+
+docker exec -it airflow-scheduler /bin/bash       -----> Acceder a una terminal del contenedor scheduler
+
+airflow db init          --------> Inicializar la base de datos
+
+
+Después salimos de la consola del scheduler y ya pudimos reiniciar los contenedores que fallaban:
+
+docker-compose up -d airflow-webserver airflow-scheduler
+
+A partir de ahí todo funciona bien simplemente iniciando el contenedor.
+
+
+
+
+Para instalar la librería de kafka en cada uno de los contenedores de interés se usaron estos comandos:
+docker exec -it airflow-webserver bash -c "pip install confluent-kafka"
+docker exec -it airflow-scheduler bash -c "pip install confluent-kafka"
+
+
+Para utilizar kafka desde el container debemos entrar en la terminal de sus respectivos servicios:
+
+docker exec -it kafka /bin/bash
+kafka-topics --create --topic my-topic --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+kafka-console-producer --topic my-topic --bootstrap-server localhost:9092
+kafka-console-consumer --topic my-topic --bootstrap-server localhost:9092 --from-beginning
+
+
+{"processId": "12345", "campo_prueba": "Ignorar", "startTime": "2024-08-30 12:00:00"}
+
+
+
+ 
+
+
